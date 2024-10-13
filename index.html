@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <title>Frontend, Backend and Fullstack Timeline</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Camparisoin between Frontend, Backend and Full stack</h1>
+        </header>
+        <div>
+            <section>
+                <div>
+                    <input type="radio" id="frontend" name="role" value="1" checked>
+                    <label for="frontend">Frontend</label>
+                </div>
+                <div>
+                    <input type="radio" id="backend" name="role" value="2">
+                    <label for="backend">Backend</label>
+                </div>
+                <div>
+                    <input type="radio" id="fullstack" name="role" value="3">
+                    <label for="fullstack">Full Stack</label>
+                </div>
+            </section>
+            <section>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>
+                                <label for="time">Time</label>
+                            </th>
+                            <th>
+                                <div class="range-cont-cls">
+                                    <div class="range-cls time-cls" id="time"></div>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="money">Money</label>
+                            </th>
+                            <th>
+                                <div class="range-cont-cls">
+                                    <div class="range-cls money-cls" id="money"></div>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="difficulty">Difficulty</label>
+                            </th>
+                            <th>
+                                <div class="range-cont-cls">
+                                    <div class="range-cls difficulty-cls" id="difficulty"></div>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="scope">Scope</label>
+                            </th>
+                            <th>
+                                <div class="range-cont-cls">
+                                    <div class="range-cls scope-cls" id="scope"></div>
+                                </div>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
