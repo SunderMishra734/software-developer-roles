@@ -36,6 +36,7 @@ header {
 footer {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 section:first-child {
